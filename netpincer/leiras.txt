@@ -1,0 +1,10 @@
+en(response.css('a[class="item clearfix"]').extract())
+
+
+response.css('div[class="name-container"] > h2::text').extract_first() 
+response.css('div[class="rate-container"] > div > b::text').extract_first() 
+response.css('div[class="rate-container"] > div > span::text').extract_first() 
+
+
+cd C:\Users\USER\netpincer
+scrapy crawl netpincer
