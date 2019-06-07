@@ -6,5 +6,5 @@ response.css('div[class="rate-container"] > div > b::text').extract_first()
 response.css('div[class="rate-container"] > div > span::text').extract_first() 
 
 
-cd C:\Users\USER\netpincer
-scrapy crawl netpincer
+cd C:\Users\USER\pizza
+scrapy crawl pizza -o pizza.csv

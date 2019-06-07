@@ -1,8 +1,8 @@
 import scrapy
 
 
-class NetpincerSpider(scrapy.Spider):
-    name = "netpincer"
+class PizzaSpider(scrapy.Spider):
+    name = "pizza"
 
     def start_requests(self):
         urls = [
